@@ -1,0 +1,25 @@
+@import "node_modules/include-media/dist/include-media"
+
+//
+// @Include MQ
+// Extension of include-media for screen only media queries (and simpler stuff)
+//
+// @author: Adam Kiss <adamkiss.com>
+// @version: 1.4.1
+
+@mixin mq($conditions...)
+	@media screen
+		+media($conditions...)
+			@content
+
+@mixin mq-min($size)
+	+mq(">=#{$size}px")
+		@content
+
+@mixin mq-max($size)
+	+mq("<=#{$size}px")
+		@content
+
+@mixin mq-in($min, $max)
+	+mq(">=#{$min}px", "<#{$max}px")
+		@content

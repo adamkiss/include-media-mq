@@ -1,0 +1,23 @@
+{
+  "name": "include-media-mq",
+  "version": "1.0.0",
+  "description": "Simple, short MQ function wrapping include-media",
+  "main": "index.sass",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/adamkiss/include-media-mq"
+  },
+  "keywords": [
+    "sass",
+    "media-queries",
+    "include-media"
+  ],
+  "author": "Adam Kiss <iamadamkiss+npm@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "include-media": "~1.4.9"
+  }
+}
