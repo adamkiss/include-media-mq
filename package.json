@@ -1,6 +1,6 @@
 {
   "name": "include-media-mq",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Simple, short MQ function wrapping include-media",
   "main": "index.sass",
   "scripts": {
